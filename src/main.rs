@@ -6,3 +6,6 @@ fn main() {
 #[allow(dead_code)]
 fn trim_newlines(s: &str) -> &str { s.trim_end_matches(['\r', '\n']) }
 
+#[allow(dead_code)]
+fn is_flag(s: &str) -> bool { s.starts_with('-') }
+
